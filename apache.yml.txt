@@ -1,18 +1,7 @@
 - module: apache
   access:
     enabled: true
-    var.paths: ["Dizin Yolu"]
-~                                                                                                                                     
-~                                                                                                                                     
-~                                                                                                                                     
-~                                                                                                                                     
-~                                                                                                                                     
-~                                                                                                                                     
-~                                                                                                                                     
-~                                                                                                                                     
-~                                                                                                                                     
-~                                                                                                                                     
-~                                                                                                                                     
-~                                                                                                                                     
-~                                                                                                                                     
-~                      
+    var.paths: ["/enter/log/path"]
+  error:
+    enabled: true
+    var.paths: ["/enter/log/path"]
