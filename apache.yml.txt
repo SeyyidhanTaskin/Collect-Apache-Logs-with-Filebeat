@@ -1,0 +1,18 @@
+- module: apache
+  access:
+    enabled: true
+    var.paths: ["Dizin Yolu"]
+~                                                                                                                                     
+~                                                                                                                                     
+~                                                                                                                                     
+~                                                                                                                                     
+~                                                                                                                                     
+~                                                                                                                                     
+~                                                                                                                                     
+~                                                                                                                                     
+~                                                                                                                                     
+~                                                                                                                                     
+~                                                                                                                                     
+~                                                                                                                                     
+~                                                                                                                                     
+~                      
