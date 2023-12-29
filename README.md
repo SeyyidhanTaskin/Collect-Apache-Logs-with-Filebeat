@@ -28,7 +28,7 @@ Project Summary And Guide :
 
 12- If configurations are okay, you can now start Filebeat.
 
-13- Type "sudo systemctl start filebeat" in the terminal, and after the service is running, type "sudo filebeat -e" and wait for the logs to be indexed in Elasticsearch.
+13- Type "sudo systemctl start filebeat" in the terminal, and after the service is running, type "sudo filebeat setup -e" and wait for the logs to be indexed in Elasticsearch.
 
 14- In Kibana, go to "Stack Management," then "Index Management," and you will see an index named "filebeat" under the "Indices" section.
 
